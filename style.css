@@ -54,8 +54,8 @@ i {
   display: inline-block;
 }
 .containermain {
-  display: flex;
-  flex-wrap: wrap;
+  display: block-grid;
+  column-gap: 50px;
   max-width: 1090px;
   margin-left: 200px;
 }
